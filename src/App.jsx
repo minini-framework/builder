@@ -25,7 +25,7 @@ class App extends Component {
               </div>
               <ul className="navbar navnav right text-white">
                 <li className="nav-item">
-                  <Link className="nav-link" to="https://github.com/dhanyn10/minini">Github</Link>
+                  <a className="nav-link" target="blank" href="https://github.com/dhanyn10/minini">Github</a>
                 </li>
               </ul>
             </nav>
