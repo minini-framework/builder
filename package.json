@@ -1,9 +1,10 @@
 {
-  "name": "minini-framework",
-  "homepage": "https://minini-framework.github.io",
+  "name": "Minikuna",
+  "homepage": "https://minikuna.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "minikuna": "^0.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
