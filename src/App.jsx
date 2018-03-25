@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter,
+  Link,
   Switch,
   Route
 } from 'react-router-dom';
 
 import Home from './pages/Home';
+import Getstarted from './pages/Getstarted';
 
 //style
 import '../node_modules/minikuna/css/style/global.css';
@@ -24,6 +26,11 @@ class App extends Component {
               <div className="brand">
                 <div className="nav-brand-text text-white">Minikuna</div>
               </div>
+              <ul className="navbar navnav text-white">
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/getstarted'}>Get Started</Link>
+                </li>
+              </ul>
               <ul className="navbar navnav right text-white">
                 <li className="nav-item">
                   <a className="nav-link" href="https://github.com/dhanyn10/minikuna">Github</a>
@@ -32,6 +39,7 @@ class App extends Component {
             </nav>
             <Switch>
               <Route exact path="/" component={Home}/>
+              <Route exact path="/getstarted" component={Getstarted}/>
             </Switch>
           </div>
         </BrowserRouter>

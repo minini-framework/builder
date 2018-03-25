@@ -11,10 +11,8 @@ export default class Home extends React.Component
                     <div className="jumper-4"></div>
                     <div className="container">
                         <h1>Minikuna</h1>
-                        <div className="jumper-2"></div>
-                        <h4 style={{fontWeight: "normal"}}>Frontend framework for Web Developer <br/> with MaterialUI color</h4>
-                        <div className="jumper-2"></div>
-                        <a href="" className="btn btn-lg bg-deep-orange text-white">Get Started</a>
+                        <h5>Frontend framework for Web Developer <br/> with MaterialUI color</h5>
+                        <a href="" className="btn btn-lg bg-deep-purple text-white">Get Started</a>
                     </div>
                 </center>
             </div>
